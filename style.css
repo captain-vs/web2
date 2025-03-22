@@ -424,7 +424,7 @@ nav a:hover {
         align-items: center;
     }
     .footer{
-        width: 200px;
+        width: 200%;
     }
 
     .footer .footer-content {
