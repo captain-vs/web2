@@ -22,7 +22,7 @@ header {
 
 @media (max-width: 768px) {
     header {
-        width: 200%;
+        width: 208%;
         margin: 0 auto;
         border-radius: 10px;
     }
@@ -113,16 +113,17 @@ nav a:hover {
     .hero h1{
         width: 188%;
         margin: 0 auto;
+        margin-left: 50px;
         border-radius: 10px;
     }
     .hero p{
         width: 154%;
         padding: 16px;
-        margin-left: 124%;
+        margin-left: 126%;
     }
     .hero a{
         width: 38%;
-        margin-left: 115%;
+        margin-left: 129%;
         padding: 11px;
     }
 }
@@ -151,7 +152,7 @@ nav a:hover {
 
 @media (max-width: 768px) {
     .subjects {
-        width: 215%;
+        width: 218%;
         margin: 0 auto;
         border-radius: 10px;
     }
@@ -235,7 +236,7 @@ nav a:hover {
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
-        width: 214%;
+        width: 218%;
         height: auto;
     }
 
@@ -424,7 +425,7 @@ nav a:hover {
         align-items: center;
     }
     .footer{
-        width: 208%;
+        width: 211%;
     }
 
     .footer .footer-content {
