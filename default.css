@@ -1,7 +1,7 @@
 /*============== Body ==============*/
 /* Custom css */
 
-
+.default-form 
 
 
 .team-img{
@@ -1029,7 +1029,7 @@ body {
 	border: 1px solid #d10f56;
 	color: #d10f56;
 }
-.widget-section .default-form input[type="text"], .widget-section .default-form input[type="email"], .widget-section .default-form textarea{
+.widget-section .default-form input[type="text"], .widget-section .default-form input[type="email"], .widget-section .default-form input[type="tel"],.widget-section .default-form textarea{
 	border-radius: 10px;
 	border: 2px solid #d10f56 !important;
 }
@@ -2744,6 +2744,7 @@ SHAPES END
 /* ----------------------- default form  ----------------------- */
 .widget-section .default-form input[type="text"],
 .widget-section .default-form input[type="email"],
+.widget-section .default-form input[type="tel"],
 .widget-section .default-form textarea {
   color: #666;
   width: 100%;
@@ -18791,3 +18792,5 @@ section.wb-slider .carousel.sliderStyle3 .carousel-inner .item .carousel-caption
 	height: auto;
 	transition: background-color 0.5s ease;
 }
+
+
