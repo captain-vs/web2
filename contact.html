@@ -173,7 +173,8 @@
 
 
     
-        <form method="post" action="">
+              <form method="POST" action="https://formspree.io/f/xldjbpql">
+
             <div class="alert alert-success" style="display: none;" id="email_sent">
                 <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
                 <strong>Success!</strong> Your email has been sent successfully.
@@ -181,17 +182,24 @@
             <div class="input">
 
                 <label id="labelforname" class="">Your name:</label>
-                <input type="text" name="name" required placeholder="&#61447; Name"></div>
+                <input type="text" name="name" required placeholder="&#61447; Name">
+            </div>
             <div class="input">
                 <label id="labelforemail" class="">Your email:</label>
-                <input type="email" name="email" required placeholder="&#61664; Email "></div>
+                <input type="email" name="email" required placeholder="&#61664; Email ">
+            </div>
+            <div class="input">
+                <label id="labelforemail" class="">Your Contact Number:</label>
+                <input type="tel" name="phone" required placeholder="&#9742; Phone Number ">
+            </div>
             <label id="labelformessage" class="">Message:</label>
             <textarea rows="6" name="message" required placeholder="&#61504; Message"></textarea><div></div>
-                                                                                                        <button id="textforsubmitbtn" type="button" class="button theme-button" value="Submit">Submit
-            </button>
 
-            <input type="hidden" name="website_source" value="innove.ai"></form>
+            <button id="textforsubmitbtn" type="submit" class="button theme-button" value="Submit">Submit </button>
 
+           
+
+        </form>
     
 
 </div>
